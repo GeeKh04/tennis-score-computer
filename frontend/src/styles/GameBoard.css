@@ -1,0 +1,47 @@
+/* GameBoard.css */
+.game-board {
+  padding: 20px;
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+form {
+  margin-bottom: 20px;
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Center items vertically */
+}
+
+input {
+  margin-right: 10px;
+  padding: 4px 10px;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #c0d44e;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d4ed45;
+}
+
+.score-board {
+  display: flex; /* Use flexbox for centering */
+  flex-direction: column; /* Align items vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+.winner {
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Center items horizontally */
+}
+
+.trophy-icon {
+  width: 24px; /* Adjust size as needed */
+  height: 24px; /* Adjust size as needed */
+  margin-left: 5px; /* Add margin to separate icon from text */
+}
